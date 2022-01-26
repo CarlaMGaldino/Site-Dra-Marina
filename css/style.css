@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*sobre*/
+
+.sobre {
+  background-color: #FFF9F9;
+  padding: 50px 0 450px 0;
+}
+
+.sobre-cont__box {
+  align-items: center;
+}
+
+span.sobre-cont__span {
+  font-size: 30px;
+  font-weight: light;
+  text-transform: uppercase;
+  color: #986683;
+}
+
+h2.sobre-cont__titulo {
+  font-size: 50px;
+  font-weight: bold;
+  color: #00A19C;
+  margin: 15px 0;
+}
+
+p.sobre-cont__paragrafo2, .sobre-cont__paragrafo1 {
+  font-size: 18px;
+  font-weight: regular;
+  color: #545762;
+  margin: 30px 0 15px 0;
+  line-height: 34px;
+}
+
+.img-thumbnail {
+  background-color: transparent;
+  border: none;
+}
+
+.botao-02 {
+  background-color: #986683;
+  border-radius: 37px;
+  width: 125px;
+  height: 33px;
+  padding: 6px;
+  font-size: 16px;
+  font-weight: light;
+  line-height: 29px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.botao-02:hover {
+  color: #fff;
+  background-color: #00A19C;
+}
+
+/*Sintomas*/
+
+.sintomas-container {
+  position: absolute;
+  top: -400px;
+}
+
+.sintomas {
+  background-color: #986683;
+  background-image: linear-gradient(to top, rgb(152, 102, 131), rgba(152, 100, 130, 0.904));
+  position: relative;
+  height: 600px;
+}
+
+h2.sintomas-h2__titulo {
+  font-size: 30px;
+  font-weight: Regular;
+  line-height: 46px;
+  text-align: center;
+  color: #00A19C;
+}
+
+.sintomas-cont {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 40px;
+}
+
+#sintomas-ouvido {
+  background-image: url(../imagens/foto-01-min.jpg);
+}
+
+#sintomas-nariz {
+  background-image: url(../imagens/foto-02-min.png);
+}
+
+#sintomas-garganta {
+  background-image: url(../imagens/foto-03-min.png);
+}
+
+h3.sintomas-cont__titulo {
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: Regular;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+li.sintomas-cont__item {
+  font-size: 16px;
+  font-weight: light;
+  line-height: 25px;
+  color: #ffffff;
+  list-style-type: disc;
+}
+
+/*Blog*/
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.blog-cont__publicacoes {
+  margin-top: 30px;
+}
+
+.blog-publicacoes__item {
+  background-color: #00A19C;
+  border-radius: 10px;
+}
+
+.blog-publicacoes__item:hover {
+  cursor: pointer;
+  box-shadow: 10px 5px 5px #0000003b;
+}
+
+.blog-cont {
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+h3.blog-publicacoes__titulo {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+h3.blog-cont__titulo {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+p.blog-cont__paragrafo {
+  text-align: center;
+  font-size: 25px;
+  font-weight: Regular;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+p.blog-publicacoes__paragrafo {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: light;
+  line-height: 25px;
+}
+
+a.blog-publicacoes__link {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+a.blog-publicacoes__link:hover {
+  color: #986683;
+}
+
+span.blog-cont__span {
+  text-align: center;
+  font-size: 30px;
+  line-height: 46px;
+  font-weight: light;
+  color: #ffffff;
+}
+
+.blog-publicacoes__botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div#blog-drmarina {
+  position: absolute;
+  top: 706px;
+}
+
+/*Contato*/
+
+section#contato-drmarina {
+  padding: 350px 0 50px 0;
+  background-color: #FFF9F9;
+}
+
+h3.contato-titulo {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38px;
+  color: #986683;
+}
+
+h4.consultorio-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #00A19C;
+}
+
+
+p.consultorio-paragrafo {
+  font-size: 20px;
+  font-weight: Regular;
+  line-height: 30px;
+  color: #3B3B3B;
+}
+
+p.consultorio-paragrafo a {
+  font-size: 20px;
+  font-weight: Regular;
+  line-height: 30px;
+  color: #3B3B3B;
+  text-decoration: none;
+}
+
+.iframe-mapa {
+  max-width: 100%;
+}
+
+.contato-cont__consultorio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*footer*/
+
+footer.drmarina {
+  background-color: #986683;
+  padding: 30px 0;
+}
+
+.nav-footer__cont a, .nav-footer__paragrafo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+span.esconde-visual {
+  color: transparent;
+}
+
+.nav-footer__cont.links-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-footer__cont.links-1 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-footer__cont span {
+  margin-left: 5px;
+}
+
+.nav-footer__cont a {
+  margin-right: 30px;
+  display: flex;
+}
+
+a.logo-doctor {
+  width: 20px;
+}
+
+
+/*media 1060px*/
+
+@media screen and (max-width:1160px) {
+  p.sobre-cont__paragrafo2, .sobre-cont__paragrafo1 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  span.sobre-cont__span {
+    font-size: 20px;
+  }
+
+  h2.sobre-cont__titulo {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  h3.sintomas-cont__titulo {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .sintomas-cont {
+    height: 468px;
+    padding: 0 25px;
+  }
+
+  .sintomas {
+    height: 550px;
+  }
+
+  .sintomas-container {
+    top: -364px;
+  }
+
+  h2.sintomas-h2__titulo {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .blog-cont {
+    height: 208px;
+    padding: 0 8px;
+  }
+
+  .blog-conteudo {
+    margin-top: -5px;
+  }
+
+  section#contato-drmarina {
+    padding: 253px 0 50px 0;
+  }
+
+  div#blog-drmarina {
+    top: 600px;
+  }
+
+  h3.blog-publicacoes__titulo {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  p.blog-publicacoes__paragrafo {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  h3.blog-cont__titulo {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  span.blog-cont__span {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  p.blog-cont__paragrafo {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  h4.consultorio-titulo {
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  p.consultorio-paragrafo {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .nav-footer__cont.links-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .sobre {
+    padding: 50px 0 50px 0;
+  }
+
+  .sintomas-container {
+    position: initial;
+    margin-top: 0;
+  }
+
+  .sintomas {
+    position: initial;
+    height: auto;
+    padding: 0 0 30px;
+  }
+
+  h2.sintomas-h2__titulo {
+    font-size: 20px;
+    line-height: 27px;
+    padding-top: 50px;
+    margin-bottom: 1025px;
+  }
+
+  .sintomas-cont {
+    margin-bottom: 30px;
+  }
+
+  p.blog-cont__paragrafo {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .blog-cont {
+    margin-bottom: 30px;
+    padding: 0 5px;
+  }
+
+  span.blog-cont__span {
+    font-size: 23px;
+    line-height: 33px;
+  }
+
+  h3.blog-cont__titulo {
+    font-size: 25px;
+    line-height: 42px;
+  }
+
+  div#blog-drmarina {
+    position: initial;
+    margin-top: -10px;
+  }
+
+  .blog-publicacoes__item.pb-5 {
+    margin-top: 30px;
+    padding-bottom: 5px !important;
+  }
+
+  .blog-conteudo_box {
+    margin-bottom: 75px;
+  }
+
+  section#contato-drmarina {
+    padding: 0px 0 30px 0;
+  }
+
+  .contato-cont__consultorio {
+    margin-bottom: 30px;
+  }
+
+  p.consultorio-paragrafo {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  h4.consultorio-titulo {
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+  h3.contato-titulo {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  p.consultorio-paragrafo a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .blog-cont {
+    height: 140px;
+  }
+
+  .nav-footer__cont.links-2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a.nav-footer__paragrafo {
+    text-align: center;
+    margin: 25px 0px;
+  }
+
+  .nav-footer__cont a {
+    margin-right: 10px;
+  }
+
+  .nav-footer__cont.links-1 {
+    justify-content: center;
+  }
+
+  .logo-doctor {
+    margin: 20px;
+  }
+
+  footer.drmarina {
+    padding: 30px 0 0 0;
+  }
+
+  #botao-blog {
+    background-color: #00A19C;
+  }
+
+  #botao-blog:hover {
+    background-color: #bb91aa;
+  }
+
+
+}
