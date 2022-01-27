@@ -13,92 +13,160 @@
 </head>
 
 <body>
+
   <header>
-    <div class="container ">
-      <div class="row">
 
-        <div class="logo-header navbar-brand">
-          <img src="imagens/logo/logo-drmarina.png" alt="Logo Doutora Marina Gabriela" width="241" height="241" class="d-inline-block align-text-top" aria-hidden="true">
-        </div>
+    <!-- container para ajustar a logo-->
+    <div class="container">
+      <div class="logo-header col-4">
+        <img class="logo-header_dr" src="imagens/logo/logo-drmarina.png" alt="Logo Doutora Marina Gabriela" width="241" height="241" class="d-inline-block align-text-top" aria-hidden="true">
+      </div>
+    </div>
+    <!------fim logo------->
 
-        <div class="nav-header collapse navbar-collapse" id="navbarNav">
+    <!--Menu redes sociais-->
+    <div class="redes-nav-header">
+      <div class="container ">
 
-          <ul class="redes-sociais navbar-nav">
-            <li class="redes-sociais_item nav-item">
-              <a class="nav-link" href="tel:+552122364214"><img src="imagens/redes-sociais/phone-call.svg" alt="">(21) 2236-4214</a>
-            </li>
-            <li class="redes-sociais_item nav-item">
-              <a class="nav-link" href="https://api.whatsapp.com/send?phone=5521997922877&text=Ol%C3%A1%2C%20em%20que%20posso%20ajudar%3F" target="_blank"><img src="imagens/redes-sociais/whatsapp.svg" alt="">(21) 99792-2877</a>
-            </li>
-            <li class="redes-sociais_item nav-item">
-              <a class="nav-link" href="https://www.instagram.com/marinagabriela_otorrino/" target="_blank"><img src="imagens/redes-sociais/instagram.svg" alt=""></a>
-            </li>
-            <li class="redes-sociais_item nav-item">
-              <a class="nav-link" href="#" target="_blank">
-                <img src="imagens/logo/logo-default-br.svg" alt="Logo Doctoralia" aria-hidden="true"></a>
-              <span class="esconde-visual">Página Doctoralia. Link abre nova janela</span>
-            </li>
-            <li class="redes-sociais_item nav-item">
-              <a class="nav-link" href="#">Marcar consulta</a>
-            </li>
-          </ul>
+        <div class="nav-redes__navegacao">
+          <div class="row justify-content-end">
+            <ul class="redes-sociais">
 
-          <nav class="menu navbar navbar-expand-lg " role="navigation">
-            <ul class="menu-header navbar-nav">
-              <li class="menu-header__item nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <li class="redes-sociais_item">
+                <a class="redes-sociais__link" href="tel:+552122364214">
+                  <img src="imagens/redes-sociais/phone-call.svg" alt="Link para ligação">(21) 2236-4214</a>
               </li>
-              <li class="menu-header__item nav-item">
-                <a class="nav-link" href="#sobre-drmarina">Sobre</a>
+
+              <li class="redes-sociais_item">
+                <a class="redes-sociais__link" href="https://api.whatsapp.com/send?phone=5521997922877&text=Ol%C3%A1%2C%20em%20que%20posso%20ajudar%3F" target="_blank">
+                  <img src="imagens/redes-sociais/whatsapp.svg" alt="Link para whatsapp">
+                  (21) 99792-2877
+                </a>
               </li>
-              <li class="menu-header__item nav-item">
-                <a class="nav-link" href="#blog-drmarina">Blog</a>
+
+              <li class="redes-sociais_item">
+                <a class="redes-sociais__link" href="https://www.instagram.com/marinagabriela_otorrino/" target="_blank">
+                  <img src="imagens/redes-sociais/instagram.svg" alt="Link para Instragram">
+                </a>
               </li>
-              <li class="menu-header__item nav-item">
-                <a class="nav-link" href="#contato-drmarina">Contato</a>
+
+              <!-- <li class="redes-sociais_item">
+                <a class="redes-sociais__link header_doctoralia-nav" href="#" target="_blank">
+                  <img src="imagens/logo/logo-default-br.svg" alt="Logo Doctoralia" aria-hidden="true"></a>
+                <span class="esconde-visual">Página Doctoralia. Link abre nova janela</span>
+              </li> -->
+
+              <li class="redes-sociais_item">
+                <a class="redes-sociais__link marcar-consulta" href="#">Marcar consulta</a>
               </li>
+
             </ul>
-          </nav>
 
+          </div>
         </div>
       </div>
     </div>
-  </header>
+    <!--Menu redes sociais-->
 
+
+    <!---Menu desktop e Mobile -->
+
+    <nav class="navbar navbar-expand-lg">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container">
+          <div class="row justify-content-end">
+
+            <ul class="navbar-nav">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-drmarina">Sobre</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog-drmarina">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contato-drmarina">Contato</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <!--fim menu-->
+
+  </header>
 
   <main role="main">
     <section class="banner">
 
-      <div class="banner-img">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h1 class="banner-titulo">
-                Dra. Marina <br> Gabriela
-              </h1>
-              <p class="banner-paragrafo">Otorrinolaringologista <br>
-                Otoneurologia
-                <span class="banner-span">CRM 910082 | RQE 25927</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
-      <div class="banner-img">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <h1 class="banner-titulo">
-                Dra. Marina <br> Gabriela
-              </h1>
-              <p class="banner-paragrafo">Otorrinolaringologista <br>
-                Otoneurologia
-                <span class="banner-span">CRM 910082 | RQE 25927</span>
-              </p>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="d-block w-100 banner-bg__01">
+              <div class="container h-100">
+                <div class="banner-imagem__pri h-100">
+                  <h1 class="banner-titulo banner-titulo__after">
+                    Dra. Marina <br>
+                  </h1>
+                  <h1 class="banner-titulo banner-titulo__before">
+                    Gabriela
+                  </h1>
+                  <p class="banner-paragrafo">Otorrinolaringologista <br>
+                    Otoneurologia <br>
+                    <span class="banner-span">CRM 910082 | RQE 25927</span>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="carousel-item">
+            <div class="d-block w-100 banner-bg__02">
+              <div class="container h-100">
+                <div class="banner-imagem__pri h-100">
+                  <h1 class="banner-titulo banner-titulo__after">
+                    Dra. Marina <br>
+                  </h1>
+                  <h1 class="banner-titulo banner-titulo__before">
+                    Gabriela
+                  </h1>
+                  <p class="banner-paragrafo">Otorrinolaringologista <br>
+                    Otoneurologia <br>
+                    <span class="banner-span">CRM 910082 | RQE 25927</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
       </div>
     </section>
 
@@ -133,28 +201,23 @@
         </div>
       </div>
     </section>
+
   </main>
 
+  <section class="sintomas blog-box">
+    <div class="container">
+      <div class="sintomas-container">
 
-  <section class="sintomas">
-
-    <div class="sintomas-container">
-
-
-      <div class="row justify-content-center">
-
-
-        <div class="sintomas-h2  mb-5">
+        <div class="sintomas-h2 mb-5">
           <h2 class="sintomas-h2__titulo">Esses são os principais sintomas e doenças que Irei te ajudar a prevenir e tratar:
           </h2>
-
+          <div class="sintomas-after"></div>
         </div>
 
-        <div class="sintomas-cont">
-
+        <div class="sintomas-conteudo">
           <div class="row justify-content-center">
 
-            <div class="col-md-3 col-12">
+            <div class="col-md-4 col-12">
               <div class="sintomas-cont pb-5" id="sintomas-ouvido">
                 <h3 class="sintomas-cont__titulo">Ouvido</h3>
                 <ul class="sintomas-cont__lista">
@@ -169,7 +232,7 @@
               </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-md-4 col-12">
               <div class="sintomas-cont pb-5" id="sintomas-nariz">
                 <h3 class="sintomas-cont__titulo">Nariz</h3>
                 <ul class="sintomas-cont__lista">
@@ -186,7 +249,7 @@
               </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-md-4 col-12">
               <div class="sintomas-cont pb-5" id="sintomas-garganta">
                 <h3 class="sintomas-cont__titulo">Garganta</h3>
                 <ul class="sintomas-cont__lista">
@@ -203,32 +266,26 @@
             </div>
 
           </div>
-
         </div>
 
       </div>
 
-
+      <!---Blog inicio--->
       <div class="blog" id="blog-drmarina">
 
-        <div class="blog-conteudo_box">
-
-          <div class="container">
-            <div class="row justify-content-center">
-              <span class="blog-cont__span">Blog</span>
-              <h3 class="blog-cont__titulo">Artigos e Publicações</h3>
-              <p class="blog-cont__paragrafo">
-                Um blog feito para disseminar o conhecimento.
-              </p>
-            </div>
-          </div>
+        <div class="blog-conteudo_box mt-4 mb-4">
+          <span class="blog-cont__span">Blog</span>
+          <h3 class="blog-cont__titulo">Artigos e Publicações</h3>
+          <p class="blog-cont__paragrafo">
+            Um blog feito para disseminar o conhecimento.
+          </p>
         </div>
 
         <div class="blog-cont__publicacoes">
 
           <div class="row justify-content-center blog-conteudo">
 
-            <div class="col-md-3 col-12">
+            <div class="col-md-4 col-12">
               <div class="blog-publicacoes__item pb-5">
                 <div class="blog-publicacoes__img">
                   <img src="imagens/blog-01-min.png" class="img-fluid" alt="">
@@ -245,7 +302,7 @@
               </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-md-4 col-12">
               <div class="blog-publicacoes__item pb-5">
                 <div class="blog-publicacoes__img">
                   <img src="imagens/blog-02-min.png" class="img-fluid" alt="">
@@ -262,7 +319,7 @@
               </div>
             </div>
 
-            <div class="col-md-3 col-12">
+            <div class="col-md-4 col-12">
               <div class="blog-publicacoes__item pb-5">
                 <div class="blog-publicacoes__img">
                   <img src="imagens/blog-03-min.png" class="img-fluid" alt="">
@@ -286,14 +343,9 @@
           </div>
 
         </div>
-
-
       </div>
     </div>
-
   </section>
-
-
 
   <section class="contato" id="contato-drmarina">
 
@@ -308,9 +360,9 @@
               <h3 class="contato-titulo">Entre em contato</h3>
             </div>
 
-            <div class="contato-cont__consultorio col-md-4 col-12">
+            <div class="contato-cont__consultorio col-md-5 col-12">
               <h4 class="consultorio-titulo">Consultório Dra. Marina</h4>
-              <p class="consultorio-paragrafo">Rua Siqueira Campos, 43, sala 827, Copacabana, Rio de Janeiro RJ | CEP: 22040-010
+              <p class="consultorio-paragrafo">Rua Siqueira Campos, 43, sala 827, Copacabana, <br> Rio de Janeiro RJ | CEP: 22040-010
               </p>
 
               <h4 class="consultorio-titulo mt-3">Telefones</h4>
@@ -326,10 +378,10 @@
               <iframe class="iframe-mapa mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.4783293488795!2d-43.186721984991195!3d-22.969431745884137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd55a9e5dfc07%3A0xcb379ff7fb91e7b4!2sRua%20Siqueira%20Campos%2C%2043%20-%20Sala%20827%20-%20Copacabana%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022031-072!5e0!3m2!1spt-BR!2sbr!4v1643120576238!5m2!1spt-BR!2sbr" width="493" height="173" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
 
-            <div class="contato-cont__consultorio col-md-4 col-12">
+            <div class="contato-cont__consultorio col-md-5 col-12">
               <h4 class="consultorio-titulo">Consultório Dra. Marina</h4>
               <p class="consultorio-paragrafo">Rua Mena Barreto, 29, Botafogo,
-                Rio de Janeiro - RJ CEP: 22271-100
+                <br> Rio de Janeiro - RJ CEP: 22271-100
               </p>
 
               <h4 class="consultorio-titulo mt-3">Telefones</h4>
@@ -350,32 +402,52 @@
 
   </section>
 
-
   <footer class="drmarina">
-
     <nav class="nav-footer" role="navigation">
       <div class="container">
-        <div class="row">
-          <div class="nav-footer__cont links-1 col-md-6 col-12">
-            <a href="tel:552122364214" class="nav-footer__telefone"><img src="imagens/redes-sociais/phone-call.svg" alt=""><span>(21) 2236-4214</span></a>
-            <a href="https://api.whatsapp.com/send?phone=5521997922877&text=Ol%C3%A1%2C%20em%20que%20posso%20ajudar%3F" target="_blank"><img src="imagens/redes-sociais/whatsapp.svg" alt=""> <span>(21)99792-2877</span></a>
-          </div>
+        <div class="row justify-content-center">
 
-          <div class="nav-footer__cont links-2 col-md-6 col-12">
-            <div class="row">
+          <div class="nav-footer__cont links-1">
 
+            <div class="nav-footer__cont-links3 col-md-5 col-12">
+              <a href="tel:552122364214" class="nav-footer__telefone">
+                <img src="imagens/redes-sociais/phone-call.svg" alt="">
+                <span>(21) 2236-4214</span>
+              </a>
 
-              <a href="#" class="nav-footer__paragrafo">Dra. Marina Gabriela © 2022. Todos os direitos reservados.</a>
-              <a href="https://www.instagram.com/marinagabriela_otorrino/"><img src="imagens/redes-sociais/instagram.svg" alt=""></a>
-              <a class="logo-doctor" href="#"><img src="imagens/logo/logo-default-br.svg" alt="Logo Doctoralia" aria-hidden="true"></a>
+              <a href="https://api.whatsapp.com/send?phone=5521997922877&text=Ol%C3%A1%2C%20em%20que%20posso%20ajudar%3F" target="_blank">
+                <img src="imagens/redes-sociais/whatsapp.svg" alt="">
+                <span>(21)99792-2877</span>
+              </a>
+            </div>
+
+            <div class="nav-footer__cont links-2 col-md-7 col-12">
+
+              <p href="#" class="nav-footer__paragrafo">
+                Dra. Marina Gabriela © 2022. Todos os direitos reservados.
+              </p>
+
+              <div class="nav-footer__cont-links">
+
+                <a href="https://www.instagram.com/marinagabriela_otorrino/">
+                  <img class="nav-footer__instagran" src="imagens/redes-sociais/instagram.svg" alt="Link para instagram">
+                </a>
+
+                <a class="logo-doctor" href="#">
+                  <img src="imagens/logo/logo-default-br.svg" alt="Logo Doctoralia" aria-hidden="true">
+                </a>
+              </div>
+
             </div>
           </div>
 
-          <span class="esconde-visual">Página Doctoralia. Link abre nova janela</span>
+          <!--Div para traço branco no footer-->
+          <div class="before-footer"></div>
+          <!---->
+
         </div>
       </div>
     </nav>
-
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
