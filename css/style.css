@@ -67,7 +67,12 @@ a.redes-sociais__link.marcar-consulta {
   z-index: 10;
 }
 
-/*menu - menu mobile*/
+/*menu - Desktop e mobile*/
+
+#redes-mobile__consulta, #redes-mobile__consulta2, #redes-mobile__consulta3 {
+  display: none;
+}
+
 .nav-link:focus, .nav-link:hover {
   color: #fff;
 }
@@ -646,11 +651,19 @@ img.nav-footer__instagran {
 
   /*menu mobile*/
 
-  .collapse:not(.show) {
+  li#redes-mobile__consulta {
+    display: flex;
+  }
+
+  .redes-nav-header {
+    display: none;
+  }
+
+  #redes-mobile__consulta, #redes-mobile__consulta2, #redes-mobile__consulta3 {
     display: block;
   }
 
-  .collapse:not(.show) {
+  ul.navbar-nav {
     background-color: #00A19C;
   }
 
@@ -679,8 +692,24 @@ img.nav-footer__instagran {
   }
 
   .navbar-nav {
-    padding: 15px;
+    padding: 25px 0;
   }
+
+  a.redes-sociais__link.marcar-consulta:hover {
+    background-color: #986683;
+    color: #fff;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    align-items: flex-start;
+  }
+
+  li.redes-sociais_item {
+    margin-left: 29px;
+    margin-top: 20px;
+  }
+
+
 
   /*fim menu mobile*/
 
@@ -688,13 +717,14 @@ img.nav-footer__instagran {
 
 
 @media screen and (max-width: 768px) {
+  a#na-footer__box-insta {
+    margin-top: 0;
+    margin-right: 0px;
+  }
+
 
   .navbar-nav {
     padding: 15px;
-  }
-
-  .collapse:not(.show) {
-    display: block;
   }
 
   .collapse:not(.show) {
