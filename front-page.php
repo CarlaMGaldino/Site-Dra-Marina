@@ -33,22 +33,75 @@
 </section>
 
 </main>
+  <section class="sintomas blog-box">
+    <div class="container">
+      <div class="sintomas-container">
 
-<section class="sintomas blog-box">
-  <div class="container">
-    <div class="sintomas-container">
+        <div class="sintomas-h2 mb-5">
+          <h2 class="sintomas-h2__titulo">Esses são os principais sintomas e doenças que Irei te ajudar a prevenir e tratar:
+          </h2>
+          <div class="sintomas-after"></div>
+        </div>
 
-      <div class="sintomas-h2 mb-5">
-        <h2 class="sintomas-h2__titulo">Esses são os principais sintomas e doenças que Irei te ajudar a prevenir e tratar:
-        </h2>
-        <div class="sintomas-after"></div>
-      </div>
+        <div id="sintomas-desktop" class="sintomas-conteudo">
+          <div class="row justify-content-center">
 
-      <div class="sintomas-conteudo">
-        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+              <div class="sintomas-cont pb-5" id="sintomas-ouvido">
+                <h3 class="sintomas-cont__titulo">Ouvido</h3>
+                <ul class="sintomas-cont__lista">
+                  <li class="sintomas-cont__item">Dor de ouvido</li>
+                  <li class="sintomas-cont__item">Inflamação dos ouvidos</li>
+                  <li class="sintomas-cont__item">Zumbido</li>
+                  <li class="sintomas-cont__item">"labirintite" / tontura</li>
+                  <li class="sintomas-cont__item">Perda de audição / surdez</li>
+                  <li class="sintomas-cont__item">Remoção de cera</li>
+                  <li class="sintomas-cont__item">Tímpano perfurado</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12">
+              <div class="sintomas-cont pb-5" id="sintomas-nariz">
+                <h3 class="sintomas-cont__titulo">Nariz</h3>
+                <ul class="sintomas-cont__lista">
+                  <li class="sintomas-cont__item">Nariz entupido</li>
+                  <li class="sintomas-cont__item">Nariz escorrendo / coriza</li>
+                  <li class="sintomas-cont__item">Desvio de septo </li>
+                  <li class="sintomas-cont__item">Rinite</li>
+                  <li class="sintomas-cont__item">Dor no rosto</li>
+                  <li class="sintomas-cont__item">Sangramento nasal</li>
+                  <li class="sintomas-cont__item">Roncos</li>
+                  <li class="sintomas-cont__item">Apneia do sono</li>
+                  <li class="sintomas-cont__item">Alteração do olfato</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-12">
+              <div class="sintomas-cont pb-5" id="sintomas-garganta">
+                <h3 class="sintomas-cont__titulo">Garganta</h3>
+                <ul class="sintomas-cont__lista">
+                  <li class="sintomas-cont__item">Dor de garganta</li>
+                  <li class="sintomas-cont__item">Tosse</li>
+                  <li class="sintomas-cont__item">Rouquidão</li>
+                  <li class="sintomas-cont__item">Faringite</li>
+                  <li class="sintomas-cont__item">Laringite</li>
+                  <li class="sintomas-cont__item">Dificuldade para engolir <br>/ engasgo</li>
+                  <li class="sintomas-cont__item">Sensação de bolo <br> na garganta </li>
+                  <li class="sintomas-cont__item">Pigarro</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div> 
+
+<!--slick versão Mobile-->
+        <div class="sintomas-conteudo sintomas-mobile__conteudo">
 
           <div class="col-md-4 col-12">
-            <div class="sintomas-cont pb-5" id="sintomas-ouvido">
+            <div class="sintomas-cont sintomas-ouvido pb-5">
               <h3 class="sintomas-cont__titulo">Ouvido</h3>
               <ul class="sintomas-cont__lista">
                 <li class="sintomas-cont__item">Dor de ouvido</li>
@@ -63,7 +116,7 @@
           </div>
 
           <div class="col-md-4 col-12">
-            <div class="sintomas-cont pb-5" id="sintomas-nariz">
+            <div class="sintomas-cont sintomas-nariz pb-5">
               <h3 class="sintomas-cont__titulo">Nariz</h3>
               <ul class="sintomas-cont__lista">
                 <li class="sintomas-cont__item">Nariz entupido</li>
@@ -80,7 +133,7 @@
           </div>
 
           <div class="col-md-4 col-12">
-            <div class="sintomas-cont pb-5" id="sintomas-garganta">
+            <div class="sintomas-cont sintomas-garganta pb-5">
               <h3 class="sintomas-cont__titulo">Garganta</h3>
               <ul class="sintomas-cont__lista">
                 <li class="sintomas-cont__item">Dor de garganta</li>
@@ -96,12 +149,16 @@
           </div>
 
         </div>
+        <!--Fim Slick Mobile-->
+
+
       </div>
 
     </div>
 
     <!---Blog inicio--->
     <div class="blog" id="blog-drmarina">
+    <div class="container">
 
       <div class="blog-conteudo_box mt-4 mb-4">
         <span class="blog-cont__span">Blog</span>
@@ -170,6 +227,7 @@
             <div> <a href="#" class="botao-02" id="botao-blog">Veja mais</a></div>
           </div>
 
+        </div>
         </div>
 
       </div>

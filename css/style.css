@@ -280,17 +280,18 @@ h2.sintomas-h2__titulo {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 40px;
+  border-radius: 20px;
 }
 
-#sintomas-ouvido {
+.sintomas-ouvido {
   background-image: url(../imagens/foto-01-min.jpg);
 }
 
-#sintomas-nariz {
+.sintomas-nariz {
   background-image: url(../imagens/foto-02-min.png);
 }
 
-#sintomas-garganta {
+.sintomas-garganta {
   background-image: url(../imagens/foto-03-min.png);
 }
 
@@ -665,6 +666,7 @@ img.nav-footer__instagran {
 
   ul.navbar-nav {
     background-color: #00A19C;
+    width: 90%;
   }
 
   .navbar-light .navbar-nav .nav-link {
@@ -911,6 +913,15 @@ img.nav-footer__instagran {
   .before-footer {
     display: none;
   }
+
+  #sintomas-desktop {
+    display: none;
+  }
+
+  .sintomas-mobile__conteudo {
+    display: block;
+  }
+
 
 
 }
