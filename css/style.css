@@ -262,7 +262,7 @@ p.sobre-cont__paragrafo2, .sobre-cont__paragrafo1 {
 }
 
 .sintomas {
-  background: linear-gradient(0deg, #FFF9F9 0%, #FFF9F9 25%, #986683 25.1%, #986683 93.9%, #FFF9F9 75%, #FFF9F9 100%);
+  background: linear-gradient(0deg, #FFF9F9 0%, #FFF9F9 25%, #986683 25.1%, #986683 77.9%, #FFF9F9 43%, #FFF9F9 36%);
 }
 
 h2.sintomas-h2__titulo {
@@ -277,7 +277,7 @@ h2.sintomas-h2__titulo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
