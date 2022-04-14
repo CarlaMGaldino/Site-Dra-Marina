@@ -186,8 +186,6 @@ p.banner-paragrafo {
   line-height: 30px;
 }
 
-
-
 /*sobre*/
 
 .sobre {
@@ -246,6 +244,10 @@ p.sobre-cont__paragrafo2, .sobre-cont__paragrafo1 {
 
 /*Sintomas*/
 
+.sintomas-conteudo.sintomas-mobile__conteudo.slick-initialized.slick-slider {
+  display: none;
+}
+
 .sintomas-h2 {
   display: flex;
   flex-direction: column;
@@ -260,7 +262,7 @@ p.sobre-cont__paragrafo2, .sobre-cont__paragrafo1 {
 }
 
 .sintomas {
-  background: linear-gradient(0deg, #FFF9F9 0%, #FFF9F9 25%, #986683 25.1%, #986683 74.9%, #FFF9F9 75%, #FFF9F9 100%);
+  background: linear-gradient(0deg, #FFF9F9 0%, #FFF9F9 25%, #986683 25.1%, #986683 93.9%, #FFF9F9 75%, #FFF9F9 100%);
 }
 
 h2.sintomas-h2__titulo {
@@ -275,7 +277,7 @@ h2.sintomas-h2__titulo {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -298,6 +300,7 @@ h2.sintomas-h2__titulo {
 h3.sintomas-cont__titulo {
   font-size: 30px;
   line-height: 43px;
+  margin-bottom: 15px;
   font-weight: Regular;
   text-transform: uppercase;
   color: #ffffff;
@@ -445,6 +448,13 @@ p.consultorio-paragrafo a {
   max-width: 100%;
 }
 
+.contato-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .contato-cont__consultorio {
   display: flex;
   flex-direction: column;
@@ -476,7 +486,7 @@ span.esconde-visual {
 .nav-footer__cont.links-2 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-footer__cont.links-1 {
@@ -499,6 +509,7 @@ a.logo-doctor {
 
 .nav-footer__cont-links3 {
   display: flex;
+  width: 34%;
 }
 
 .before-footer {
@@ -719,6 +730,20 @@ img.nav-footer__instagran {
 
 
 @media screen and (max-width: 768px) {
+  .nav-footer__cont-links3 {
+    width: 100%;
+  }
+
+  .sobre-cont__texto.col-md-6.col-12 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sintomas-conteudo.sintomas-mobile__conteudo.slick-initialized.slick-slider {
+    display: block;
+  }
+
   a#na-footer__box-insta {
     margin-top: 0;
     margin-right: 0px;
@@ -899,7 +924,7 @@ img.nav-footer__instagran {
   }
 
   footer.drmarina {
-    padding: 30px 0 0 0;
+    padding: 30px 0;
   }
 
   p.nav-footer__paragrafo {
@@ -921,7 +946,5 @@ img.nav-footer__instagran {
   .sintomas-mobile__conteudo {
     display: block;
   }
-
-
 
 }
