@@ -1,4 +1,4 @@
-$(".sintomas-conteudo").slick({
+$(".sintomas-mobile__conteudo").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   autoplay: true,
